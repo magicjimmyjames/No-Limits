@@ -1,0 +1,923 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="android" name="Android">
+      <configuration />
+    </facet>
+    <facet type="apk" name="APK">
+      <configuration>
+        <option name="APK_PATH" value="$MODULE_DIR$/Kodi_16.1_APKTrunk.apk" />
+        <option name="APP_PACKAGE" value="org.xbmc.kodi" />
+        <option name="SETUP_ISSUES">
+          <list>
+            <SetupIssue>
+              <option name="severity" value="WARNING" />
+              <option name="category" value="DEBUG_SYMBOLS_MISSING" />
+              <option name="extraInfo" value="" />
+            </SetupIssue>
+          </list>
+        </option>
+        <option name="NATIVE_LIBRARIES">
+          <list>
+            <NativeLibrary>
+              <option name="sharedObjectFilePaths">
+                <list>
+                  <option value="$MODULE_DIR$/lib/armeabi-v7a/libImageLib-arm.so" />
+                </list>
+              </option>
+              <option name="name" value="libImageLib-arm.so" />
+              <option name="debuggableSharedObjectFilesByAbi">
+                <map />
+              </option>
+              <option name="pathMappings">
+                <map />
+              </option>
+              <option name="hasDebugSymbols" value="false" />
+            </NativeLibrary>
+            <NativeLibrary>
+              <option name="sharedObjectFilePaths">
+                <list>
+                  <option value="$MODULE_DIR$/lib/armeabi-v7a/libKODI_adsp-arm.so" />
+                </list>
+              </option>
+              <option name="name" value="libKODI_adsp-arm.so" />
+              <option name="debuggableSharedObjectFilesByAbi">
+                <map />
+              </option>
+              <option name="pathMappings">
+                <map />
+              </option>
+              <option name="hasDebugSymbols" value="false" />
+            </NativeLibrary>
+            <NativeLibrary>
+              <option name="sharedObjectFilePaths">
+                <list>
+                  <option value="$MODULE_DIR$/lib/armeabi-v7a/libKODI_audioengine-arm.so" />
+                </list>
+              </option>
+              <option name="name" value="libKODI_audioengine-arm.so" />
+              <option name="debuggableSharedObjectFilesByAbi">
+                <map />
+              </option>
+              <option name="pathMappings">
+                <map />
+              </option>
+              <option name="hasDebugSymbols" value="false" />
+            </NativeLibrary>
+            <NativeLibrary>
+              <option name="sharedObjectFilePaths">
+                <list>
+                  <option value="$MODULE_DIR$/lib/armeabi-v7a/libKODI_guilib-arm.so" />
+                </list>
+              </option>
+              <option name="name" value="libKODI_guilib-arm.so" />
+              <option name="debuggableSharedObjectFilesByAbi">
+                <map />
+              </option>
+              <option name="pathMappings">
+                <map />
+              </option>
+              <option name="hasDebugSymbols" value="false" />
+            </NativeLibrary>
+            <NativeLibrary>
+              <option name="sharedObjectFilePaths">
+                <list>
+                  <option value="$MODULE_DIR$/lib/armeabi-v7a/libXBMC_addon-arm.so" />
+                </list>
+              </option>
+              <option name="name" value="libXBMC_addon-arm.so" />
+              <option name="debuggableSharedObjectFilesByAbi">
+                <map />
+              </option>
+              <option name="pathMappings">
+                <map />
+              </option>
+              <option name="hasDebugSymbols" value="false" />
+            </NativeLibrary>
+            <NativeLibrary>
+              <option name="sharedObjectFilePaths">
+                <list>
+                  <option value="$MODULE_DIR$/lib/armeabi-v7a/libXBMC_codec-arm.so" />
+                </list>
+              </option>
+              <option name="name" value="libXBMC_codec-arm.so" />
+              <option name="debuggableSharedObjectFilesByAbi">
+                <map />
+              </option>
+              <option name="pathMappings">
+                <map />
+              </option>
+              <option name="hasDebugSymbols" value="false" />
+            </NativeLibrary>
+            <NativeLibrary>
+              <option name="sharedObjectFilePaths">
+                <list>
+                  <option value="$MODULE_DIR$/lib/armeabi-v7a/libXBMC_pvr-arm.so" />
+                </list>
+              </option>
+              <option name="name" value="libXBMC_pvr-arm.so" />
+              <option name="debuggableSharedObjectFilesByAbi">
+                <map />
+              </option>
+              <option name="pathMappings">
+                <map />
+              </option>
+              <option name="hasDebugSymbols" value="false" />
+            </NativeLibrary>
+            <NativeLibrary>
+              <option name="sharedObjectFilePaths">
+                <list>
+                  <option value="$MODULE_DIR$/lib/armeabi-v7a/lib_imaging.so" />
+                </list>
+              </option>
+              <option name="name" value="lib_imaging.so" />
+              <option name="debuggableSharedObjectFilesByAbi">
+                <map />
+              </option>
+              <option name="pathMappings">
+                <map />
+              </option>
+              <option name="hasDebugSymbols" value="false" />
+            </NativeLibrary>
+            <NativeLibrary>
+              <option name="sharedObjectFilePaths">
+                <list>
+                  <option value="$MODULE_DIR$/lib/armeabi-v7a/lib_imagingft.so" />
+                </list>
+              </option>
+              <option name="name" value="lib_imagingft.so" />
+              <option name="debuggableSharedObjectFilesByAbi">
+                <map />
+              </option>
+              <option name="pathMappings">
+                <map />
+              </option>
+              <option name="hasDebugSymbols" value="false" />
+            </NativeLibrary>
+            <NativeLibrary>
+              <option name="sharedObjectFilePaths">
+                <list>
+                  <option value="$MODULE_DIR$/lib/armeabi-v7a/lib_imagingmath.so" />
+                </list>
+              </option>
+              <option name="name" value="lib_imagingmath.so" />
+              <option name="debuggableSharedObjectFilesByAbi">
+                <map />
+              </option>
+              <option name="pathMappings">
+                <map />
+              </option>
+              <option name="hasDebugSymbols" value="false" />
+            </NativeLibrary>
+            <NativeLibrary>
+              <option name="sharedObjectFilePaths">
+                <list>
+                  <option value="$MODULE_DIR$/lib/armeabi-v7a/libass.so" />
+                </list>
+              </option>
+              <option name="name" value="libass.so" />
+              <option name="debuggableSharedObjectFilesByAbi">
+                <map />
+              </option>
+              <option name="pathMappings">
+                <map />
+              </option>
+              <option name="hasDebugSymbols" value="false" />
+            </NativeLibrary>
+            <NativeLibrary>
+              <option name="sharedObjectFilePaths">
+                <list>
+                  <option value="$MODULE_DIR$/lib/armeabi-v7a/libaudiodecoder.modplug.so" />
+                </list>
+              </option>
+              <option name="name" value="libaudiodecoder.modplug.so" />
+              <option name="debuggableSharedObjectFilesByAbi">
+                <map />
+              </option>
+              <option name="pathMappings">
+                <map />
+              </option>
+              <option name="hasDebugSymbols" value="false" />
+            </NativeLibrary>
+            <NativeLibrary>
+              <option name="sharedObjectFilePaths">
+                <list>
+                  <option value="$MODULE_DIR$/lib/armeabi-v7a/libaudiodecoder.nosefart.so" />
+                </list>
+              </option>
+              <option name="name" value="libaudiodecoder.nosefart.so" />
+              <option name="debuggableSharedObjectFilesByAbi">
+                <map />
+              </option>
+              <option name="pathMappings">
+                <map />
+              </option>
+              <option name="hasDebugSymbols" value="false" />
+            </NativeLibrary>
+            <NativeLibrary>
+              <option name="sharedObjectFilePaths">
+                <list>
+                  <option value="$MODULE_DIR$/lib/armeabi-v7a/libaudiodecoder.sidplay.so" />
+                </list>
+              </option>
+              <option name="name" value="libaudiodecoder.sidplay.so" />
+              <option name="debuggableSharedObjectFilesByAbi">
+                <map />
+              </option>
+              <option name="pathMappings">
+                <map />
+              </option>
+              <option name="hasDebugSymbols" value="false" />
+            </NativeLibrary>
+            <NativeLibrary>
+              <option name="sharedObjectFilePaths">
+                <list>
+                  <option value="$MODULE_DIR$/lib/armeabi-v7a/libaudiodecoder.snesapu.so" />
+                </list>
+              </option>
+              <option name="name" value="libaudiodecoder.snesapu.so" />
+              <option name="debuggableSharedObjectFilesByAbi">
+                <map />
+              </option>
+              <option name="pathMappings">
+                <map />
+              </option>
+              <option name="hasDebugSymbols" value="false" />
+            </NativeLibrary>
+            <NativeLibrary>
+              <option name="sharedObjectFilePaths">
+                <list>
+                  <option value="$MODULE_DIR$/lib/armeabi-v7a/libaudiodecoder.stsound.so" />
+                </list>
+              </option>
+              <option name="name" value="libaudiodecoder.stsound.so" />
+              <option name="debuggableSharedObjectFilesByAbi">
+                <map />
+              </option>
+              <option name="pathMappings">
+                <map />
+              </option>
+              <option name="hasDebugSymbols" value="false" />
+            </NativeLibrary>
+            <NativeLibrary>
+              <option name="sharedObjectFilePaths">
+                <list>
+                  <option value="$MODULE_DIR$/lib/armeabi-v7a/libaudiodecoder.timidity.so" />
+                </list>
+              </option>
+              <option name="name" value="libaudiodecoder.timidity.so" />
+              <option name="debuggableSharedObjectFilesByAbi">
+                <map />
+              </option>
+              <option name="pathMappings">
+                <map />
+              </option>
+              <option name="hasDebugSymbols" value="false" />
+            </NativeLibrary>
+            <NativeLibrary>
+              <option name="sharedObjectFilePaths">
+                <list>
+                  <option value="$MODULE_DIR$/lib/armeabi-v7a/libaudiodecoder.vgmstream.so" />
+                </list>
+              </option>
+              <option name="name" value="libaudiodecoder.vgmstream.so" />
+              <option name="debuggableSharedObjectFilesByAbi">
+                <map />
+              </option>
+              <option name="pathMappings">
+                <map />
+              </option>
+              <option name="hasDebugSymbols" value="false" />
+            </NativeLibrary>
+            <NativeLibrary>
+              <option name="sharedObjectFilePaths">
+                <list>
+                  <option value="$MODULE_DIR$/lib/armeabi-v7a/libaudioencoder.flac.so" />
+                </list>
+              </option>
+              <option name="name" value="libaudioencoder.flac.so" />
+              <option name="debuggableSharedObjectFilesByAbi">
+                <map />
+              </option>
+              <option name="pathMappings">
+                <map />
+              </option>
+              <option name="hasDebugSymbols" value="false" />
+            </NativeLibrary>
+            <NativeLibrary>
+              <option name="sharedObjectFilePaths">
+                <list>
+                  <option value="$MODULE_DIR$/lib/armeabi-v7a/libaudioencoder.lame.so" />
+                </list>
+              </option>
+              <option name="name" value="libaudioencoder.lame.so" />
+              <option name="debuggableSharedObjectFilesByAbi">
+                <map />
+              </option>
+              <option name="pathMappings">
+                <map />
+              </option>
+              <option name="hasDebugSymbols" value="false" />
+            </NativeLibrary>
+            <NativeLibrary>
+              <option name="sharedObjectFilePaths">
+                <list>
+                  <option value="$MODULE_DIR$/lib/armeabi-v7a/libaudioencoder.vorbis.so" />
+                </list>
+              </option>
+              <option name="name" value="libaudioencoder.vorbis.so" />
+              <option name="debuggableSharedObjectFilesByAbi">
+                <map />
+              </option>
+              <option name="pathMappings">
+                <map />
+              </option>
+              <option name="hasDebugSymbols" value="false" />
+            </NativeLibrary>
+            <NativeLibrary>
+              <option name="sharedObjectFilePaths">
+                <list>
+                  <option value="$MODULE_DIR$/lib/armeabi-v7a/libaudioencoder.wav.so" />
+                </list>
+              </option>
+              <option name="name" value="libaudioencoder.wav.so" />
+              <option name="debuggableSharedObjectFilesByAbi">
+                <map />
+              </option>
+              <option name="pathMappings">
+                <map />
+              </option>
+              <option name="hasDebugSymbols" value="false" />
+            </NativeLibrary>
+            <NativeLibrary>
+              <option name="sharedObjectFilePaths">
+                <list>
+                  <option value="$MODULE_DIR$/lib/armeabi-v7a/libbluray.so" />
+                </list>
+              </option>
+              <option name="name" value="libbluray.so" />
+              <option name="debuggableSharedObjectFilesByAbi">
+                <map />
+              </option>
+              <option name="pathMappings">
+                <map />
+              </option>
+              <option name="hasDebugSymbols" value="false" />
+            </NativeLibrary>
+            <NativeLibrary>
+              <option name="sharedObjectFilePaths">
+                <list>
+                  <option value="$MODULE_DIR$/lib/armeabi-v7a/libcpluff-arm.so" />
+                </list>
+              </option>
+              <option name="name" value="libcpluff-arm.so" />
+              <option name="debuggableSharedObjectFilesByAbi">
+                <map />
+              </option>
+              <option name="pathMappings">
+                <map />
+              </option>
+              <option name="hasDebugSymbols" value="false" />
+            </NativeLibrary>
+            <NativeLibrary>
+              <option name="sharedObjectFilePaths">
+                <list>
+                  <option value="$MODULE_DIR$/lib/armeabi-v7a/libcurl.so" />
+                </list>
+              </option>
+              <option name="name" value="libcurl.so" />
+              <option name="debuggableSharedObjectFilesByAbi">
+                <map />
+              </option>
+              <option name="pathMappings">
+                <map />
+              </option>
+              <option name="hasDebugSymbols" value="false" />
+            </NativeLibrary>
+            <NativeLibrary>
+              <option name="sharedObjectFilePaths">
+                <list>
+                  <option value="$MODULE_DIR$/lib/armeabi-v7a/libdvdcss-arm.so" />
+                </list>
+              </option>
+              <option name="name" value="libdvdcss-arm.so" />
+              <option name="debuggableSharedObjectFilesByAbi">
+                <map />
+              </option>
+              <option name="pathMappings">
+                <map />
+              </option>
+              <option name="hasDebugSymbols" value="false" />
+            </NativeLibrary>
+            <NativeLibrary>
+              <option name="sharedObjectFilePaths">
+                <list>
+                  <option value="$MODULE_DIR$/lib/armeabi-v7a/libdvdnav-arm.so" />
+                </list>
+              </option>
+              <option name="name" value="libdvdnav-arm.so" />
+              <option name="debuggableSharedObjectFilesByAbi">
+                <map />
+              </option>
+              <option name="pathMappings">
+                <map />
+              </option>
+              <option name="hasDebugSymbols" value="false" />
+            </NativeLibrary>
+            <NativeLibrary>
+              <option name="sharedObjectFilePaths">
+                <list>
+                  <option value="$MODULE_DIR$/lib/armeabi-v7a/libexif-arm.so" />
+                </list>
+              </option>
+              <option name="name" value="libexif-arm.so" />
+              <option name="debuggableSharedObjectFilesByAbi">
+                <map />
+              </option>
+              <option name="pathMappings">
+                <map />
+              </option>
+              <option name="hasDebugSymbols" value="false" />
+            </NativeLibrary>
+            <NativeLibrary>
+              <option name="sharedObjectFilePaths">
+                <list>
+                  <option value="$MODULE_DIR$/lib/armeabi-v7a/libgif.so" />
+                </list>
+              </option>
+              <option name="name" value="libgif.so" />
+              <option name="debuggableSharedObjectFilesByAbi">
+                <map />
+              </option>
+              <option name="pathMappings">
+                <map />
+              </option>
+              <option name="hasDebugSymbols" value="false" />
+            </NativeLibrary>
+            <NativeLibrary>
+              <option name="sharedObjectFilePaths">
+                <list>
+                  <option value="$MODULE_DIR$/lib/armeabi-v7a/libkodi.so" />
+                </list>
+              </option>
+              <option name="name" value="libkodi.so" />
+              <option name="debuggableSharedObjectFilesByAbi">
+                <map />
+              </option>
+              <option name="pathMappings">
+                <map />
+              </option>
+              <option name="hasDebugSymbols" value="false" />
+            </NativeLibrary>
+            <NativeLibrary>
+              <option name="sharedObjectFilePaths">
+                <list>
+                  <option value="$MODULE_DIR$/lib/armeabi-v7a/libnfs.so" />
+                </list>
+              </option>
+              <option name="name" value="libnfs.so" />
+              <option name="debuggableSharedObjectFilesByAbi">
+                <map />
+              </option>
+              <option name="pathMappings">
+                <map />
+              </option>
+              <option name="hasDebugSymbols" value="false" />
+            </NativeLibrary>
+            <NativeLibrary>
+              <option name="sharedObjectFilePaths">
+                <list>
+                  <option value="$MODULE_DIR$/lib/armeabi-v7a/libplist.so" />
+                </list>
+              </option>
+              <option name="name" value="libplist.so" />
+              <option name="debuggableSharedObjectFilesByAbi">
+                <map />
+              </option>
+              <option name="pathMappings">
+                <map />
+              </option>
+              <option name="hasDebugSymbols" value="false" />
+            </NativeLibrary>
+            <NativeLibrary>
+              <option name="sharedObjectFilePaths">
+                <list>
+                  <option value="$MODULE_DIR$/lib/armeabi-v7a/libpvr.argustv.so" />
+                </list>
+              </option>
+              <option name="name" value="libpvr.argustv.so" />
+              <option name="debuggableSharedObjectFilesByAbi">
+                <map />
+              </option>
+              <option name="pathMappings">
+                <map />
+              </option>
+              <option name="hasDebugSymbols" value="false" />
+            </NativeLibrary>
+            <NativeLibrary>
+              <option name="sharedObjectFilePaths">
+                <list>
+                  <option value="$MODULE_DIR$/lib/armeabi-v7a/libpvr.demo.so" />
+                </list>
+              </option>
+              <option name="name" value="libpvr.demo.so" />
+              <option name="debuggableSharedObjectFilesByAbi">
+                <map />
+              </option>
+              <option name="pathMappings">
+                <map />
+              </option>
+              <option name="hasDebugSymbols" value="false" />
+            </NativeLibrary>
+            <NativeLibrary>
+              <option name="sharedObjectFilePaths">
+                <list>
+                  <option value="$MODULE_DIR$/lib/armeabi-v7a/libpvr.dvblink.so" />
+                </list>
+              </option>
+              <option name="name" value="libpvr.dvblink.so" />
+              <option name="debuggableSharedObjectFilesByAbi">
+                <map />
+              </option>
+              <option name="pathMappings">
+                <map />
+              </option>
+              <option name="hasDebugSymbols" value="false" />
+            </NativeLibrary>
+            <NativeLibrary>
+              <option name="sharedObjectFilePaths">
+                <list>
+                  <option value="$MODULE_DIR$/lib/armeabi-v7a/libpvr.dvbviewer.so" />
+                </list>
+              </option>
+              <option name="name" value="libpvr.dvbviewer.so" />
+              <option name="debuggableSharedObjectFilesByAbi">
+                <map />
+              </option>
+              <option name="pathMappings">
+                <map />
+              </option>
+              <option name="hasDebugSymbols" value="false" />
+            </NativeLibrary>
+            <NativeLibrary>
+              <option name="sharedObjectFilePaths">
+                <list>
+                  <option value="$MODULE_DIR$/lib/armeabi-v7a/libpvr.filmon.so" />
+                </list>
+              </option>
+              <option name="name" value="libpvr.filmon.so" />
+              <option name="debuggableSharedObjectFilesByAbi">
+                <map />
+              </option>
+              <option name="pathMappings">
+                <map />
+              </option>
+              <option name="hasDebugSymbols" value="false" />
+            </NativeLibrary>
+            <NativeLibrary>
+              <option name="sharedObjectFilePaths">
+                <list>
+                  <option value="$MODULE_DIR$/lib/armeabi-v7a/libpvr.hdhomerun.so" />
+                </list>
+              </option>
+              <option name="name" value="libpvr.hdhomerun.so" />
+              <option name="debuggableSharedObjectFilesByAbi">
+                <map />
+              </option>
+              <option name="pathMappings">
+                <map />
+              </option>
+              <option name="hasDebugSymbols" value="false" />
+            </NativeLibrary>
+            <NativeLibrary>
+              <option name="sharedObjectFilePaths">
+                <list>
+                  <option value="$MODULE_DIR$/lib/armeabi-v7a/libpvr.hts.so" />
+                </list>
+              </option>
+              <option name="name" value="libpvr.hts.so" />
+              <option name="debuggableSharedObjectFilesByAbi">
+                <map />
+              </option>
+              <option name="pathMappings">
+                <map />
+              </option>
+              <option name="hasDebugSymbols" value="false" />
+            </NativeLibrary>
+            <NativeLibrary>
+              <option name="sharedObjectFilePaths">
+                <list>
+                  <option value="$MODULE_DIR$/lib/armeabi-v7a/libpvr.iptvsimple.so" />
+                </list>
+              </option>
+              <option name="name" value="libpvr.iptvsimple.so" />
+              <option name="debuggableSharedObjectFilesByAbi">
+                <map />
+              </option>
+              <option name="pathMappings">
+                <map />
+              </option>
+              <option name="hasDebugSymbols" value="false" />
+            </NativeLibrary>
+            <NativeLibrary>
+              <option name="sharedObjectFilePaths">
+                <list>
+                  <option value="$MODULE_DIR$/lib/armeabi-v7a/libpvr.mediaportal.tvserver.so" />
+                </list>
+              </option>
+              <option name="name" value="libpvr.mediaportal.tvserver.so" />
+              <option name="debuggableSharedObjectFilesByAbi">
+                <map />
+              </option>
+              <option name="pathMappings">
+                <map />
+              </option>
+              <option name="hasDebugSymbols" value="false" />
+            </NativeLibrary>
+            <NativeLibrary>
+              <option name="sharedObjectFilePaths">
+                <list>
+                  <option value="$MODULE_DIR$/lib/armeabi-v7a/libpvr.mythtv.so" />
+                </list>
+              </option>
+              <option name="name" value="libpvr.mythtv.so" />
+              <option name="debuggableSharedObjectFilesByAbi">
+                <map />
+              </option>
+              <option name="pathMappings">
+                <map />
+              </option>
+              <option name="hasDebugSymbols" value="false" />
+            </NativeLibrary>
+            <NativeLibrary>
+              <option name="sharedObjectFilePaths">
+                <list>
+                  <option value="$MODULE_DIR$/lib/armeabi-v7a/libpvr.nextpvr.so" />
+                </list>
+              </option>
+              <option name="name" value="libpvr.nextpvr.so" />
+              <option name="debuggableSharedObjectFilesByAbi">
+                <map />
+              </option>
+              <option name="pathMappings">
+                <map />
+              </option>
+              <option name="hasDebugSymbols" value="false" />
+            </NativeLibrary>
+            <NativeLibrary>
+              <option name="sharedObjectFilePaths">
+                <list>
+                  <option value="$MODULE_DIR$/lib/armeabi-v7a/libpvr.njoy.so" />
+                </list>
+              </option>
+              <option name="name" value="libpvr.njoy.so" />
+              <option name="debuggableSharedObjectFilesByAbi">
+                <map />
+              </option>
+              <option name="pathMappings">
+                <map />
+              </option>
+              <option name="hasDebugSymbols" value="false" />
+            </NativeLibrary>
+            <NativeLibrary>
+              <option name="sharedObjectFilePaths">
+                <list>
+                  <option value="$MODULE_DIR$/lib/armeabi-v7a/libpvr.pctv.so" />
+                </list>
+              </option>
+              <option name="name" value="libpvr.pctv.so" />
+              <option name="debuggableSharedObjectFilesByAbi">
+                <map />
+              </option>
+              <option name="pathMappings">
+                <map />
+              </option>
+              <option name="hasDebugSymbols" value="false" />
+            </NativeLibrary>
+            <NativeLibrary>
+              <option name="sharedObjectFilePaths">
+                <list>
+                  <option value="$MODULE_DIR$/lib/armeabi-v7a/libpvr.stalker.so" />
+                </list>
+              </option>
+              <option name="name" value="libpvr.stalker.so" />
+              <option name="debuggableSharedObjectFilesByAbi">
+                <map />
+              </option>
+              <option name="pathMappings">
+                <map />
+              </option>
+              <option name="hasDebugSymbols" value="false" />
+            </NativeLibrary>
+            <NativeLibrary>
+              <option name="sharedObjectFilePaths">
+                <list>
+                  <option value="$MODULE_DIR$/lib/armeabi-v7a/libpvr.vbox.so" />
+                </list>
+              </option>
+              <option name="name" value="libpvr.vbox.so" />
+              <option name="debuggableSharedObjectFilesByAbi">
+                <map />
+              </option>
+              <option name="pathMappings">
+                <map />
+              </option>
+              <option name="hasDebugSymbols" value="false" />
+            </NativeLibrary>
+            <NativeLibrary>
+              <option name="sharedObjectFilePaths">
+                <list>
+                  <option value="$MODULE_DIR$/lib/armeabi-v7a/libpvr.vdr.vnsi.so" />
+                </list>
+              </option>
+              <option name="name" value="libpvr.vdr.vnsi.so" />
+              <option name="debuggableSharedObjectFilesByAbi">
+                <map />
+              </option>
+              <option name="pathMappings">
+                <map />
+              </option>
+              <option name="hasDebugSymbols" value="false" />
+            </NativeLibrary>
+            <NativeLibrary>
+              <option name="sharedObjectFilePaths">
+                <list>
+                  <option value="$MODULE_DIR$/lib/armeabi-v7a/libpvr.vuplus.so" />
+                </list>
+              </option>
+              <option name="name" value="libpvr.vuplus.so" />
+              <option name="debuggableSharedObjectFilesByAbi">
+                <map />
+              </option>
+              <option name="pathMappings">
+                <map />
+              </option>
+              <option name="hasDebugSymbols" value="false" />
+            </NativeLibrary>
+            <NativeLibrary>
+              <option name="sharedObjectFilePaths">
+                <list>
+                  <option value="$MODULE_DIR$/lib/armeabi-v7a/libpvr.wmc.so" />
+                </list>
+              </option>
+              <option name="name" value="libpvr.wmc.so" />
+              <option name="debuggableSharedObjectFilesByAbi">
+                <map />
+              </option>
+              <option name="pathMappings">
+                <map />
+              </option>
+              <option name="hasDebugSymbols" value="false" />
+            </NativeLibrary>
+            <NativeLibrary>
+              <option name="sharedObjectFilePaths">
+                <list>
+                  <option value="$MODULE_DIR$/lib/armeabi-v7a/librtmp.so" />
+                </list>
+              </option>
+              <option name="name" value="librtmp.so" />
+              <option name="debuggableSharedObjectFilesByAbi">
+                <map />
+              </option>
+              <option name="pathMappings">
+                <map />
+              </option>
+              <option name="hasDebugSymbols" value="false" />
+            </NativeLibrary>
+            <NativeLibrary>
+              <option name="sharedObjectFilePaths">
+                <list>
+                  <option value="$MODULE_DIR$/lib/armeabi-v7a/libshairplay.so" />
+                </list>
+              </option>
+              <option name="name" value="libshairplay.so" />
+              <option name="debuggableSharedObjectFilesByAbi">
+                <map />
+              </option>
+              <option name="pathMappings">
+                <map />
+              </option>
+              <option name="hasDebugSymbols" value="false" />
+            </NativeLibrary>
+            <NativeLibrary>
+              <option name="sharedObjectFilePaths">
+                <list>
+                  <option value="$MODULE_DIR$/lib/armeabi-v7a/libsmbclient.so" />
+                </list>
+              </option>
+              <option name="name" value="libsmbclient.so" />
+              <option name="debuggableSharedObjectFilesByAbi">
+                <map />
+              </option>
+              <option name="pathMappings">
+                <map />
+              </option>
+              <option name="hasDebugSymbols" value="false" />
+            </NativeLibrary>
+            <NativeLibrary>
+              <option name="sharedObjectFilePaths">
+                <list>
+                  <option value="$MODULE_DIR$/lib/armeabi-v7a/libvisualization.spectrum.so" />
+                </list>
+              </option>
+              <option name="name" value="libvisualization.spectrum.so" />
+              <option name="debuggableSharedObjectFilesByAbi">
+                <map />
+              </option>
+              <option name="pathMappings">
+                <map />
+              </option>
+              <option name="hasDebugSymbols" value="false" />
+            </NativeLibrary>
+            <NativeLibrary>
+              <option name="sharedObjectFilePaths">
+                <list>
+                  <option value="$MODULE_DIR$/lib/armeabi-v7a/libxbmpeg2.so" />
+                </list>
+              </option>
+              <option name="name" value="libxbmpeg2.so" />
+              <option name="debuggableSharedObjectFilesByAbi">
+                <map />
+              </option>
+              <option name="pathMappings">
+                <map />
+              </option>
+              <option name="hasDebugSymbols" value="false" />
+            </NativeLibrary>
+            <NativeLibrary>
+              <option name="sharedObjectFilePaths">
+                <list>
+                  <option value="$MODULE_DIR$/lib/armeabi-v7a/libxbmpeg2convert.so" />
+                </list>
+              </option>
+              <option name="name" value="libxbmpeg2convert.so" />
+              <option name="debuggableSharedObjectFilesByAbi">
+                <map />
+              </option>
+              <option name="pathMappings">
+                <map />
+              </option>
+              <option name="hasDebugSymbols" value="false" />
+            </NativeLibrary>
+            <NativeLibrary>
+              <option name="sharedObjectFilePaths">
+                <list>
+                  <option value="$MODULE_DIR$/lib/armeabi-v7a/libxbogg.so" />
+                </list>
+              </option>
+              <option name="name" value="libxbogg.so" />
+              <option name="debuggableSharedObjectFilesByAbi">
+                <map />
+              </option>
+              <option name="pathMappings">
+                <map />
+              </option>
+              <option name="hasDebugSymbols" value="false" />
+            </NativeLibrary>
+            <NativeLibrary>
+              <option name="sharedObjectFilePaths">
+                <list>
+                  <option value="$MODULE_DIR$/lib/armeabi-v7a/libxbvorbis.so" />
+                </list>
+              </option>
+              <option name="name" value="libxbvorbis.so" />
+              <option name="debuggableSharedObjectFilesByAbi">
+                <map />
+              </option>
+              <option name="pathMappings">
+                <map />
+              </option>
+              <option name="hasDebugSymbols" value="false" />
+            </NativeLibrary>
+            <NativeLibrary>
+              <option name="sharedObjectFilePaths">
+                <list>
+                  <option value="$MODULE_DIR$/lib/armeabi-v7a/libxbvorbisfile.so" />
+                </list>
+              </option>
+              <option name="name" value="libxbvorbisfile.so" />
+              <option name="debuggableSharedObjectFilesByAbi">
+                <map />
+              </option>
+              <option name="pathMappings">
+                <map />
+              </option>
+              <option name="hasDebugSymbols" value="false" />
+            </NativeLibrary>
+          </list>
+        </option>
+        <option name="JAVA_SOURCE_FOLDER_PATHS">
+          <set />
+        </option>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/lib" />
+    </content>
+    <orderEntry type="jdk" jdkName="Android API 22 Platform" jdkType="Android SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

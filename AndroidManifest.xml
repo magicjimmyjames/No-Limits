@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="161001"
+    android:versionName="16.1"
+    package="org.xbmc.kodi"
+    platformBuildVersionCode="17"
+    platformBuildVersionName="4.2.2-576024">
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="22" />
+
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-permission
+        android:name="android.permission.INTERNET" />
+
+    <uses-permission
+        android:name="android.permission.WAKE_LOCK" />
+
+    <uses-permission
+        android:name="android.permission.GET_TASKS" />
+
+    <uses-permission
+        android:name="android.permission.BLUETOOTH" />
+
+    <uses-feature
+        android:name="android.hardware.bluetooth"
+        android:required="false" />
+
+    <uses-feature
+        android:name="android.hardware.screen.landscape"
+        android:required="true" />
+
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+
+    <uses-feature
+        android:name="android.hardware.touchscreen.multitouch"
+        android:required="false" />
+
+    <uses-feature
+        android:name="android.hardware.type.television"
+        android:required="false" />
+
+    <uses-feature
+        android:name="android.hardware.usb.host"
+        android:required="false" />
+
+    <uses-feature
+        android:name="android.hardware.wifi"
+        android:required="false" />
+
+    <application
+        android:label="@ref/0x7f050001"
+        android:icon="@ref/0x7f020001"
+        android:hasCode="true"
+        android:logo="@ref/0x7f020000">
+
+        <activity
+            android:theme="@ref/0x01030007"
+            android:name=".Splash"
+            android:finishOnTaskLaunch="true"
+            android:launchMode="3"
+            android:screenOrientation="6"
+            android:configChanges="0x5f8">
+
+            <intent-filter>
+
+                <action
+                    android:name="android.intent.action.MAIN" />
+
+                <category
+                    android:name="android.intent.category.LAUNCHER" />
+
+                <category
+                    android:name="android.intent.category.LEANBACK_LAUNCHER" />
+            </intent-filter>
+
+            <intent-filter>
+
+                <action
+                    android:name="android.intent.action.VIEW" />
+
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+
+                <category
+                    android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:mimeType="video/*" />
+
+                <data
+                    android:mimeType="audio/*" />
+
+                <data
+                    android:mimeType="image/*" />
+
+                <data
+                    android:scheme="file" />
+
+                <data
+                    android:scheme="content" />
+
+                <data
+                    android:scheme="http" />
+
+                <data
+                    android:scheme="https" />
+
+                <data
+                    android:scheme="ftp" />
+
+                <data
+                    android:scheme="ftps" />
+
+                <data
+                    android:scheme="rtp" />
+
+                <data
+                    android:scheme="rtsp" />
+
+                <data
+                    android:scheme="mms" />
+
+                <data
+                    android:scheme="dav" />
+
+                <data
+                    android:scheme="davs" />
+
+                <data
+                    android:scheme="ssh" />
+
+                <data
+                    android:scheme="sftp" />
+
+                <data
+                    android:scheme="smb" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:theme="@ref/0x01030007"
+            android:label="@ref/0x7f050001"
+            android:name=".Main"
+            android:finishOnTaskLaunch="true"
+            android:launchMode="3"
+            android:screenOrientation="6"
+            android:configChanges="0x5f8">
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="kodi" />
+        </activity>
+
+        <receiver
+            android:name=".XBMCBroadcastReceiver">
+
+            <intent-filter>
+
+                <action
+                    android:name="android.intent.action.DREAMING_STOPPED" />
+
+                <action
+                    android:name="android.intent.action.HEADSET_PLUG" />
+
+                <action
+                    android:name="android.bluetooth.a2dp.profile.action.CONNECTION_STATE_CHANGED" />
+
+                <action
+                    android:name="android.intent.action.MEDIA_BUTTON" />
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>
